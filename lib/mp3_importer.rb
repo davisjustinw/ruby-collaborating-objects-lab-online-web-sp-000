@@ -13,7 +13,7 @@ class MP3Importer
   end
   
   def import
-    
+    Song.new
   end
   
 end
