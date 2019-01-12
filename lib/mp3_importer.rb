@@ -7,7 +7,6 @@ class MP3Importer
   end
   
   def files
-    binding.pry
     Dir["#{@path}/*"].collect do |file| 
       file.partition(/(\/)(?!.*\/)/).last}
     end
